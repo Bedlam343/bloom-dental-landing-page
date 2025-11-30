@@ -11,6 +11,9 @@
   --color-brand-forest: #145a32;
   --color-brand-gray: #f3f4f6;
   --color-brand-slate: #1f2937;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-inter-only: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,6 +26,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
+  font-family: var(--font-sans);
 }
 
 /* Smooth scrolling for anchor links */

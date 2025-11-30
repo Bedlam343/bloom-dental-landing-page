@@ -32,9 +32,9 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Link
               href="#contact"
-              className="flex items-center justify-center gap-2 bg-green-900
+              className="flex items-center justify-center gap-2 hover:bg-green-900
               text-white px-8 py-4 rounded-xl font-bold text-lg 
-              transition shadow-xl hover:translate-y-[-2px]"
+              transition shadow-xl hover:translate-y-[-2px] bg-brand-forest"
             >
               <Calendar size={20} /> Book Appointment
             </Link>
