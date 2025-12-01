@@ -18,10 +18,16 @@ const ContactSection = () => {
 
   return (
     <section id="contact" className="py-20 bg-white">
-      <div className="container mx-auto grid lg:grid-cols-2 gap-16">
+      <div
+        className="container mx-auto grid lg:grid-cols-2 gap-16
+            px-6 sm:px-0"
+      >
         {/* Contact Form */}
         <div>
-          <h2 className="text-3xl font-bold text-brand-slate mb-6">
+          <h2
+            className="text-3xl font-bold text-brand-slate mb-6
+              text-center sm:text-left"
+          >
             Request an Appointment
           </h2>
           <p className="text-gray-600 mb-8">

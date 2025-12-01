@@ -3,8 +3,14 @@ import { Phone, Menu } from 'lucide-react';
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
-      <div className="container mx-auto flex items-center justify-between h-20">
+    <header
+      className="sticky top-0 z-50 bg-white shadow-sm border-b
+     border-gray-100"
+    >
+      <div
+        className="container mx-auto flex items-center justify-between 
+        h-20 px-6 sm:px-0"
+      >
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           {/* Placeholder Icon */}
@@ -35,7 +41,7 @@ const Header = () => {
             href="tel:4085550192"
             className="flex items-center gap-2 text-brand-forest font-semibold"
           >
-            <Phone size={18} /> (408) 555-0192
+            <Phone size={18} /> (408) 555-019X
           </a>
           <Link
             href="#contact" // Or Calendly Modal trigger

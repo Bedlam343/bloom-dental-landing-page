@@ -4,7 +4,10 @@ import { Star, Calendar, Phone } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative bg-brand-gray pt-12 pb-20 md:pt-24 md:pb-32 overflow-hidden">
+    <section
+      className="relative bg-brand-gray pt-12 pb-20 md:pt-24 
+      md:pb-32 overflow-hidden px-6 sm:px-0"
+    >
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text Content */}
         <div className="space-y-6 z-10">
@@ -42,21 +45,21 @@ const Hero = () => {
               href="tel:4085550192"
               className="flex items-center justify-center gap-2 bg-white text-brand-slate border-2 border-brand-slate/10 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-50 transition"
             >
-              <Phone size={20} /> (408) 555-0192
+              <Phone size={20} /> (408) 555-019X
             </a>
           </div>
 
           {/* Insurance Logos Placeholder */}
           <div className="pt-8 opacity-70">
-            <p className="text-sm text-gray-500 mb-3">
+            <p className="text-sm text-gray-700 mb-3 select-none">
               We accept most major insurance plans:
             </p>
-            <div className="flex gap-6 grayscale">
+            <div className="flex gap-6 grayscale select-none">
               {/* TODO: Replace with real SVG logos */}
-              <div className="font-bold text-gray-400">DELTA</div>
-              <div className="font-bold text-gray-400">CIGNA</div>
-              <div className="font-bold text-gray-400">AETNA</div>
-              <div className="font-bold text-gray-400">METLIFE</div>
+              <div className="font-bold text-gray-600">DELTA</div>
+              <div className="font-bold text-gray-600">CIGNA</div>
+              <div className="font-bold text-gray-600">AETNA</div>
+              <div className="font-bold text-gray-600">METLIFE</div>
             </div>
           </div>
         </div>
