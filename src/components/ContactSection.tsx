@@ -10,23 +10,10 @@ const ContactSection = () => {
     e.preventDefault();
     setLoading(true);
 
-    const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData);
+    await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      });
-
-      if (!res.ok) throw new Error('Failed');
-      setStatus('success');
-    } catch (err) {
-      setStatus('error');
-    } finally {
-      setLoading(false);
-    }
+    setStatus('success');
+    setLoading(false);
   }
 
   return (
