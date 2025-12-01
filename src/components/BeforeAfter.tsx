@@ -9,13 +9,13 @@ const BeforeAfter = () => {
   return (
     <section className="py-20 bg-brand-slate text-white">
       <div
-        className="container mx-auto px-6 sm:px-0 grid lg:grid-cols-2 
+        className="container mx-auto px-6 sm:px-8 grid lg:grid-cols-2 
         gap-6 sm:gap-12 items-center"
       >
         <div>
           <h2
             className="text-3xl md:text-4xl font-bold mb-6 text-center
-            sm:text-left"
+            lg:text-left"
           >
             Real Results, Real Smiles
           </h2>

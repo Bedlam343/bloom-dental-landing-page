@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       className="relative bg-brand-gray pt-12 pb-20 md:pt-24 
-      md:pb-32 overflow-hidden px-6 sm:px-0"
+      md:pb-32 overflow-hidden px-6 sm:px-8"
     >
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text Content */}
@@ -22,7 +22,7 @@ const Hero = () => {
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold text-brand-slate leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-slate leading-tight">
             Bloom Dental Care – Family Dentist in{' '}
             <span className="text-brand-forest">San Jose</span>
           </h1>
@@ -32,7 +32,7 @@ const Hero = () => {
             cosmetic makeovers, we make your smile our priority.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 pt-4">
+          <div className="flex flex-col xl:flex-row gap-4 pt-4">
             <Link
               href="#contact"
               className="flex items-center justify-center gap-2 hover:bg-green-900
